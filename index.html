@@ -20,14 +20,15 @@
     integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
     crossorigin="anonymous"></script>
     <style>
-        html{font-family: monospace}
+        html{font-family: Georgia, 'Times New Roman', Times, serif}
         .top-nav{width: 173px;}
         h5{padding-top: none;}
        /* body{background-color: rgb(33, 38, 44); color: lightskyblue;} */
-       body{background-image: url("images/mountains.jpg"); color: white; font-weight: 700 }
+       body{background-image: url("images/brick.jpg"); color: black; font-weight: 500 }
 
-        .bio{max-width: 600px; text-align: center;}
-        .centered {text-align: center; font-size: 14pt; color: white;}
+        .bio{ text-align: center; background-color: lightgray; opacity: .75; border-radius: 20px}
+        .centered {text-align: center; font-size: 12pt; color: black;}
+        .rounded {border-radius: 20px}
     </style>
 </head>
 <body>
@@ -42,44 +43,42 @@
         </div>
 
         <div class="center-align row" >
-            <p class=" col l3"></p>
-            <p style="font-size: 24pt" class= " col l6 center-align bio">Hi, I'm Karina. I use technology to solve problems. Explore some of my latest projects.</p>
+            <p style="font-size: 22pt" class= " col   bio">Hi, I'm Karina. I like solving problems and utilizing new technologies to do so. I am a full stack developer with a business background, who likes working with people, and loves a challenge. Explore some of my latest projects below.</p>
             <!-- <h3 class="center-align">Latest Projects</h3> -->
-            <p class=" col l3"></p>
         </div>
 
     
 
-        <div class="carousel">
-            <a class="carousel-item" href="http://opensky1.herokuapp.com/"target="_blank">
-                <img src="images/opensky.png">
-                <p class="centered">React MySQL Express Node</p>
+        <div class="carousel" style="margin-bottom: 30px">
+            <a class="carousel-item" href="http://uss-aeronyde.herokuapp.com/"target="_blank">
+                <img src="images/Aeronyde.png" class="rounded">
+                <p class="centered bio">USS Aeronyde is an application that facilitates drone integration into airspace. Tech: React, MySQL, Express & Node</p>
             </a>
             <a class="carousel-item" href="https://ksmills88.github.io/Train-Time/"target="_blank">
-                <img src="images/traintime.jpg">
-                <p class="centered">Firebase Javascript jQuery</p>
+                <img src="images/traintime.jpg"class="rounded">
+                <p class="centered bio">Personal Train Schedular using Firebase, Javascript & jQuery</p>
             </a>
             <a class="carousel-item" href="https://ksmills88.github.io/StarWarsGame/"target="_blank">
-                <img src="images/swars2.jpg">
-                <p class="centered">Javascript jQuery</p>
+                <img src="images/swars2.jpg"class="rounded">
+                <p class="centered bio">Star Wars RPG game using Javascript & jQuery</p>
             </a>
 
             <a class="carousel-item" href="https://ksmills88.github.io/GiphyAPI/"target="_blank">
-                <img src="images/giphy.jpg">
-                <p class="centered">API AJAX Javascript</p>
+                <img src="images/giphy.jpg"class="rounded">
+                <p class="centered bio">Fun food search using Giphy's API, AJAX & Javascript</p>
             </a>
             <a class="carousel-item" href="https://murmuring-headland-70129.herokuapp.com"target="_blank">
-                <img src="images/FriendFinder.jpg">
-                <p class="centered">Node Express API</p>
+                <img src="images/FriendFinder.jpg"class="rounded">
+                <p class="centered bio">Friend Match Survey using Node, Express & API's</p>
             </a>
             <a class="carousel-item" href="https://ksmills88.github.io/MemoryGame/"target="_blank">
-                <img src="images/OfficeMemoryGame.png">
-                <p class="centered">React ES6 JSX</p>
+                <img src="images/OfficeMemoryGame.png"class="rounded">
+                <p class="centered bio">Memory click game using React</p>
             </a>
 
         </div>
     
-        <div class="center-align row" style="width: 120px">
+        <div class="center-align row" style="width: 120px; margin-top: 30px">
             <a class="col" href="https://github.com/ksmills88"target="_blank"><img src="images/github-logo.png" alt="Git Hub Icon" id="github"></a>
             <a class="col" href="https://www.linkedin.com/in/karina-mills-aa423875/"target="_blank"><img src="images/linkedin.png" alt="LinkedIn Icon" id="linkedin"></a>
         </div>
