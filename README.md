@@ -1,5 +1,6 @@
 # Portfolio
 
-See a compilation of some of my favorite projects here: 
+See some of my latest projects.
+![click here](https://ksmills88.github.io/Portfolio/)
 
 https://ksmills88.github.io/Portfolio/
